@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">kpark</string>
+
+    <!-- Dialog buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- New parking -->
+    <string name="countryCode">+36</string>
+    <string name="mobilePrefix">Mobile parking prefix</string>
+    <string name="zone">Zone</string>
+    <string name="zone_auto_detect">auto detect</string>
+    <string name="delete_vehicle">Delete vehicle forever?</string>
+    <string name="start">Start</string>
+    <string name="define_mobile">Define mobile prefix first</string>
+    <string name="define_zone">Define zone first</string>
+    <string name="select_vehicle">Select a vehicle</string>
+    <string name="confirm_details">Please confirm details:\nVehicle: %1$s\nZone: %2$s</string>
+
+    <!-- New vehicle -->
+    <string name="new_vehicle">New vehicle</string>
+    <string name="plate_format">%1$s-%2$s</string>
+    <string name="vehicle_plate">Vehicle plate</string>
+    <string name="vehicle_type">Vehicle type</string>
+    <string name="vehicle_identification">Vehicle identification</string>
+    <string name="plate_format_invalid">Plate format invalid</string>
+    <string name="plate_already_exists">Vehicle with plate already exists</string>
+    <string name="car">Car</string>
+    <string name="motorcycle">Motorcycle</string>
+    <string name="truck">Truck</string>
+    <string name="bus">Bus</string>
+
+    <!-- Ongoing parking -->
+    <string name="ongoing_parking">Ongoing parking</string>
+    <string name="ongoing_zone_text">Zone: %1$s</string>
+    <string name="ongoing_plate_text">Vehicle: %1$s</string>
+    <string name="stop">Stop</string>
+    <string name="confirm_end_parking">Please confirm to end parking</string>
+
+    <!-- Permission requests -->
+    <string name="enable_bluetooth_notification_message">Enable bluetooth to automatically stop parking.</string>
+    <string name="sms_permission_request">We need SMS permission to automatically start and stop parking.</string>
+    <string name="bluetooth_permission_request">We need bluetooth permission to automatically stop parking.</string>
+    <string name="location_permission_request">We need location access to determine the zone.</string>
+
+    <!-- Sms response messages -->
+    <string name="response_message_start">Parking successfully started at %1$s, predicted end %2$s</string>
+    <string name="response_message_unhandled">Message was unhandled: %1$s</string>
+    <string name="response_message_manual_stop">Parking stopped at %1$s</string>
+    <string name="response_message_automatic_stop">Parking stopped at %1$s by the provider</string>
+    <string name="response_message_stop_forecast">Parking will stop soon (at %1$s)</string>
+    <string name="response_message_no_parking">No active parking in the system</string>
+    <string name="response_message_no_balance">Not enough balance, parking cannot be started</string>
+    <string name="response_message_parking_cancelled">Parking has been cancelled by the provider</string>
+    <string name="response_message_future_parking">Parking will only start at %1$s</string>
+
+    <!-- Notifications -->
+    <string name="pending_parking">Pending parking</string>
+    <string name="waiting_for_provider_response">Waiting for response from the provider</string>
+    <string name="parking_info">Parking info</string>
+    <string name="parking_finished">Parking finished</string>
+    <string name="warning">Warning</string>
+    <string name="stop_message_sent_waiting_for_response">Stop message sent. Waiting for response.</string>
+    <string name="notification_channel">Parking notifications</string>
+    <string name="notification_channel_description">Notifications for parking status</string>
+</resources>

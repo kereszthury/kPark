@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newParkingFragment">
+
+    <fragment
+        android:id="@+id/newParkingFragment"
+        android:name="hu.kpark.NewParkingFragment"
+        android:label="fragment_new_parking"
+        tools:layout="@layout/fragment_new_parking" >
+        <action
+            android:id="@+id/action_newParkingFragment_to_ongoingParkingFragment"
+            app:destination="@id/ongoingParkingFragment" />
+        <action
+            android:id="@+id/action_newParkingFragment_to_alertDialogFragment"
+            app:destination="@id/alertDialogFragment" />
+        <action
+            android:id="@+id/action_newParkingFragment_to_newVehicleFragment"
+            app:destination="@id/newVehicleFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/ongoingParkingFragment"
+        android:name="hu.kpark.OngoingParkingFragment"
+        android:label="fragment_ongoing_parking"
+        tools:layout="@layout/fragment_ongoing_parking" >
+        <action
+            android:id="@+id/action_ongoingParkingFragment_to_alertDialogFragment"
+            app:destination="@id/alertDialogFragment" />
+    </fragment>
+    <dialog
+        android:id="@+id/alertDialogFragment"
+        android:name="hu.kpark.AlertDialogFragment"
+        android:label="AlertDialogFragment" />
+    <dialog
+        android:id="@+id/newVehicleFragment"
+        android:name="hu.kpark.NewVehicleFragment"
+        android:label="NewVehicleFragment" >
+        <action
+            android:id="@+id/action_newVehicleFragment_to_newParkingFragment"
+            app:destination="@id/newParkingFragment" />
+        <action
+            android:id="@+id/action_newVehicleFragment_to_alertDialogFragment"
+            app:destination="@id/alertDialogFragment" />
+    </dialog>
+</navigation>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="gunMetal">#1F363D</color>
+    <color name="indigo">#254E70</color>
+    <color name="chefchaouenBlue">#4392F1</color>
+    <color name="lapis">#145C9E</color>
+    <color name="argentina">#77B6EA</color>
+    <color name="blue">#1481BA</color>
+    <color name="powderBlue">#B4CDED</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="teaGreen">#CFE0C3</color>
+    <color name="jade">#3BB273</color>
+    <color name="jasper">#C8553D</color>
+    <color name="flax">#E9D985</color>
+</resources>

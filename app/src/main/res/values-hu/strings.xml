@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">kpark</string>
+
+    <!-- Dialog buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">Mégsem</string>
+
+    <!-- New parking -->
+    <string name="countryCode">+36</string>
+    <string name="mobilePrefix">Szolgáltatói prefix</string>
+    <string name="zone">Zóna</string>
+    <string name="zone_auto_detect">helyfelismerés</string>
+    <string name="delete_vehicle">Végleg törli a járművet?</string>
+    <string name="start">Start</string>
+    <string name="define_mobile">Határozza meg a prefixét</string>
+    <string name="define_zone">Határozza meg a zónát</string>
+    <string name="select_vehicle">Válasszon egy járművet</string>
+    <string name="confirm_details">Megerősítés:\nJármű: %1$s\nZóna: %2$s</string>
+
+    <!-- New vehicle -->
+    <string name="new_vehicle">Új jármű</string>
+    <string name="plate_format">%1$s-%2$s</string>
+    <string name="vehicle_plate">Rendszám</string>
+    <string name="vehicle_type">Típus</string>
+    <string name="car">Autó</string>
+    <string name="motorcycle">Motor</string>
+    <string name="truck">Teherautó</string>
+    <string name="bus">Busz</string>
+    <string name="vehicle_identification">Járműazonosítás</string>
+    <string name="plate_format_invalid">Érvénytelen rendszám</string>
+    <string name="plate_already_exists">Ilyen rendszámú jármű már létezik</string>
+
+    <!-- Ongoing parking -->
+    <string name="ongoing_parking">Parkolás folyamatban</string>
+    <string name="ongoing_zone_text">Zóna: %1$s</string>
+    <string name="ongoing_plate_text">Jármű: %1$s</string>
+    <string name="stop">Stop</string>
+    <string name="confirm_end_parking">Erősítse meg a befejezéshez</string>
+
+    <!-- Permission requests -->
+    <string name="enable_bluetooth_notification_message">Engedélyezze a Bluetooth-ot az automatikus leállításhoz.</string>
+    <string name="sms_permission_request">Az automatikus parkoláshoz SMS engedélyt kell kérnünk.</string>
+    <string name="bluetooth_permission_request">A parkolás automatikus leállításához Bluettoth engedélyt kell kérnünk.</string>
+    <string name="location_permission_request">A zóna meghatározásához helymeghatározásra van szükségünk.</string>
+
+    <!-- Sms response messages -->
+    <string name="response_message_start">A parkolás elindult %1$s-kor, várható befejezés %2$s-kor</string>
+    <string name="response_message_unhandled">Értelmezhetetlen üzenet: %1$s</string>
+    <string name="response_message_manual_stop">A parkolás leállt %1$s-kor</string>
+    <string name="response_message_automatic_stop">A parkolást a szolgáltató %1$s-kor leállította</string>
+    <string name="response_message_stop_forecast">A parkolás hamarosan magától leáll (%1$s-kor)</string>
+    <string name="response_message_no_parking">Nincs a rendszerben aktív parkolás</string>
+    <string name="response_message_no_balance">Nincs elég egyenlege, a parkolás nem indítható el</string>
+    <string name="response_message_parking_cancelled">A parkolást a szolgáltató törölte</string>
+    <string name="response_message_future_parking">A parkolás később, %1$s-kor fog elindulni</string>
+
+    <!-- Notifications -->
+    <string name="pending_parking">Parkolás megkezdése folyamatban</string>
+    <string name="waiting_for_provider_response">Várakozás a szolgáltató válaszára</string>
+    <string name="parking_info">Információ</string>
+    <string name="parking_finished">A parkolás leállt</string>
+    <string name="warning">Figyelmeztetés</string>
+    <string name="stop_message_sent_waiting_for_response">Stop üzenet elküldve. Várakozás a válaszra.</string>
+    <string name="notification_channel">Parkolási értesítések</string>
+    <string name="notification_channel_description">A parkolás státuszát jelző értesítések</string>
+</resources>
